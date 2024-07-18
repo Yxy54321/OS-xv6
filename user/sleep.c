@@ -17,12 +17,12 @@ main(int argc, char *argv[])
             printf("invalid arguments.\n");
             exit(1);
         }
+        p++;
     }
     if(argc>2){
         printf("warning:you gave more arguments than needed,first one is used.\n");
     }
     sleep(atoi(argv[1]));
   }
-  
   exit(0);
 }
