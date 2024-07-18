@@ -14,7 +14,7 @@ main(int argc, char *argv[])
     char *p=argv[1];
     while(*p!='\0'){
         if (*p>'9'||*p<'0'){
-            print("invalid arguments.\n");
+            printf("invalid arguments.\n");
             exit(1);
         }
     }
